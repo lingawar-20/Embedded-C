@@ -45,4 +45,3 @@ void out_PWM(uint16_t val)
         OCR1A = 0; //0% output
     }
 }
-
