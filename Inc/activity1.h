@@ -16,8 +16,8 @@
 /**
  * @brief MACROS for ports and pins
  */
-#define LED_PORT (PORTB)
-#define LED_PIN (PB0)
+#define LED_PORT (PORTD)
+#define LED_PIN (PD0)
 
 #define BUTTON_PORT (PORTC)
 #define BUTTON_PIN (PC0)

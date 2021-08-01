@@ -14,7 +14,7 @@ void LED_OFF()
 }
 void perpheral_io(void)
 {
-  DDRB |= (1<<LED_PIN);  // setting D port as output for led
+  DDRD |= (1<<LED_PIN);  // setting D port as output for led
   DDRC &= ~(1<<HEATER_PIN); // setting C port as input for heater button
   DDRC &= ~(1<<BUTTON_PIN); // setting C port as input to check the presence of a passenger
   HEATER_PORT |= (1<<HEATER_PIN);
